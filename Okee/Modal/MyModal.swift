@@ -19,7 +19,6 @@ class MyModel: ObservableObject {
 
     var selectionToDiscourage = FamilyActivitySelection() {
         willSet {
-            //print ("got here \(newValue)")
             let applications = newValue.applicationTokens
             let categories = newValue.categoryTokens
             let webCategories = newValue.webDomainTokens

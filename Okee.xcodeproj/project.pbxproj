@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12E63E9A2D01878C00F818BE /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E63E992D01878C00F818BE /* DeviceActivity.framework */; };
+		12E63EA22D01878C00F818BE /* MyMonitorExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 12E63E972D01878C00F818BE /* MyMonitorExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		12E63EB82D01908C00F818BE /* MyMonitorReportExtension.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = 12E63EAC2D01908C00F818BE /* MyMonitorReportExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12E63E422D0171AE00F818BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E63E292D0171AC00F818BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12E63E302D0171AC00F818BE;
+			remoteInfo = Okee;
+		};
+		12E63E4C2D0171AE00F818BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E63E292D0171AC00F818BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12E63E302D0171AC00F818BE;
+			remoteInfo = Okee;
+		};
+		12E63EA02D01878C00F818BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E63E292D0171AC00F818BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12E63E962D01878C00F818BE;
+			remoteInfo = MyMonitorExtension;
+		};
+		12E63EB62D01908C00F818BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E63E292D0171AC00F818BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12E63EAB2D01908C00F818BE;
+			remoteInfo = MyMonitorReportExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		12E63EA72D01878C00F818BE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				12E63EA22D01878C00F818BE /* MyMonitorExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E63EBD2D01908C00F818BE /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				12E63EB82D01908C00F818BE /* MyMonitorReportExtension.appex in Embed ExtensionKit Extensions */,
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12E63E312D0171AC00F818BE /* Okee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Okee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E63E412D0171AE00F818BE /* OkeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OkeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E63E4B2D0171AE00F818BE /* OkeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OkeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E63E972D01878C00F818BE /* MyMonitorExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyMonitorExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E63E992D01878C00F818BE /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
+		12E63EAC2D01908C00F818BE /* MyMonitorReportExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = MyMonitorReportExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		12D5128D2D08469C002E9BA2 /* Exceptions for "Okee" folder in "MyMonitorExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Modal/MyModal.swift,
+			);
+			target = 12E63E962D01878C00F818BE /* MyMonitorExtension */;
+		};
+		12D5128E2D08469C002E9BA2 /* Exceptions for "Okee" folder in "MyMonitorReportExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Modal/MyModal.swift,
+			);
+			target = 12E63EAB2D01908C00F818BE /* MyMonitorReportExtension */;
+		};
+		12E63EA32D01878C00F818BE /* Exceptions for "MyMonitorExtension" folder in "MyMonitorExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 12E63E962D01878C00F818BE /* MyMonitorExtension */;
+		};
+		12E63EB92D01908C00F818BE /* Exceptions for "MyMonitorReportExtension" folder in "MyMonitorReportExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 12E63EAB2D01908C00F818BE /* MyMonitorReportExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		12E63E332D0171AC00F818BE /* Okee */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				12D5128D2D08469C002E9BA2 /* Exceptions for "Okee" folder in "MyMonitorExtension" target */,
+				12D5128E2D08469C002E9BA2 /* Exceptions for "Okee" folder in "MyMonitorReportExtension" target */,
+			);
+			path = Okee;
+			sourceTree = "<group>";
+		};
+		12E63E442D0171AE00F818BE /* OkeeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OkeeTests;
+			sourceTree = "<group>";
+		};
+		12E63E4E2D0171AE00F818BE /* OkeeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OkeeUITests;
+			sourceTree = "<group>";
+		};
+		12E63E9B2D01878C00F818BE /* MyMonitorExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				12E63EA32D01878C00F818BE /* Exceptions for "MyMonitorExtension" folder in "MyMonitorExtension" target */,
+			);
+			path = MyMonitorExtension;
+			sourceTree = "<group>";
+		};
+		12E63EAD2D01908C00F818BE /* MyMonitorReportExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				12E63EB92D01908C00F818BE /* Exceptions for "MyMonitorReportExtension" folder in "MyMonitorReportExtension" target */,
+			);
+			path = MyMonitorReportExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12E63E2E2D0171AC00F818BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E63E3E2D0171AE00F818BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E63E482D0171AE00F818BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E63E942D01878C00F818BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E63E9A2D01878C00F818BE /* DeviceActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E63EA92D01908C00F818BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12E63E282D0171AC00F818BE = {
+			isa = PBXGroup;
+			children = (
+				12E63E332D0171AC00F818BE /* Okee */,
+				12E63E442D0171AE00F818BE /* OkeeTests */,
+				12E63E4E2D0171AE00F818BE /* OkeeUITests */,
+				12E63E9B2D01878C00F818BE /* MyMonitorExtension */,
+				12E63EAD2D01908C00F818BE /* MyMonitorReportExtension */,
+				12E63E982D01878C00F818BE /* Frameworks */,
+				12E63E322D0171AC00F818BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12E63E322D0171AC00F818BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12E63E312D0171AC00F818BE /* Okee.app */,
+				12E63E412D0171AE00F818BE /* OkeeTests.xctest */,
+				12E63E4B2D0171AE00F818BE /* OkeeUITests.xctest */,
+				12E63E972D01878C00F818BE /* MyMonitorExtension.appex */,
+				12E63EAC2D01908C00F818BE /* MyMonitorReportExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12E63E982D01878C00F818BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12E63E992D01878C00F818BE /* DeviceActivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12E63E302D0171AC00F818BE /* Okee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E63E552D0171AE00F818BE /* Build configuration list for PBXNativeTarget "Okee" */;
+			buildPhases = (
+				12E63E2D2D0171AC00F818BE /* Sources */,
+				12E63E2E2D0171AC00F818BE /* Frameworks */,
+				12E63E2F2D0171AC00F818BE /* Resources */,
+				12E63EA72D01878C00F818BE /* Embed Foundation Extensions */,
+				12E63EBD2D01908C00F818BE /* Embed ExtensionKit Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12E63EA12D01878C00F818BE /* PBXTargetDependency */,
+				12E63EB72D01908C00F818BE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				12E63E332D0171AC00F818BE /* Okee */,
+			);
+			name = Okee;
+			packageProductDependencies = (
+			);
+			productName = Okee;
+			productReference = 12E63E312D0171AC00F818BE /* Okee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12E63E402D0171AE00F818BE /* OkeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E63E582D0171AE00F818BE /* Build configuration list for PBXNativeTarget "OkeeTests" */;
+			buildPhases = (
+				12E63E3D2D0171AE00F818BE /* Sources */,
+				12E63E3E2D0171AE00F818BE /* Frameworks */,
+				12E63E3F2D0171AE00F818BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12E63E432D0171AE00F818BE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				12E63E442D0171AE00F818BE /* OkeeTests */,
+			);
+			name = OkeeTests;
+			packageProductDependencies = (
+			);
+			productName = OkeeTests;
+			productReference = 12E63E412D0171AE00F818BE /* OkeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12E63E4A2D0171AE00F818BE /* OkeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E63E5B2D0171AE00F818BE /* Build configuration list for PBXNativeTarget "OkeeUITests" */;
+			buildPhases = (
+				12E63E472D0171AE00F818BE /* Sources */,
+				12E63E482D0171AE00F818BE /* Frameworks */,
+				12E63E492D0171AE00F818BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12E63E4D2D0171AE00F818BE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				12E63E4E2D0171AE00F818BE /* OkeeUITests */,
+			);
+			name = OkeeUITests;
+			packageProductDependencies = (
+			);
+			productName = OkeeUITests;
+			productReference = 12E63E4B2D0171AE00F818BE /* OkeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		12E63E962D01878C00F818BE /* MyMonitorExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E63EA42D01878C00F818BE /* Build configuration list for PBXNativeTarget "MyMonitorExtension" */;
+			buildPhases = (
+				12E63E932D01878C00F818BE /* Sources */,
+				12E63E942D01878C00F818BE /* Frameworks */,
+				12E63E952D01878C00F818BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				12E63E9B2D01878C00F818BE /* MyMonitorExtension */,
+			);
+			name = MyMonitorExtension;
+			packageProductDependencies = (
+			);
+			productName = MyMonitorExtension;
+			productReference = 12E63E972D01878C00F818BE /* MyMonitorExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		12E63EAB2D01908C00F818BE /* MyMonitorReportExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E63EBA2D01908C00F818BE /* Build configuration list for PBXNativeTarget "MyMonitorReportExtension" */;
+			buildPhases = (
+				12E63EA82D01908C00F818BE /* Sources */,
+				12E63EA92D01908C00F818BE /* Frameworks */,
+				12E63EAA2D01908C00F818BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				12E63EAD2D01908C00F818BE /* MyMonitorReportExtension */,
+			);
+			name = MyMonitorReportExtension;
+			packageProductDependencies = (
+			);
+			productName = MyMonitorReportExtension;
+			productReference = 12E63EAC2D01908C00F818BE /* MyMonitorReportExtension.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12E63E292D0171AC00F818BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					12E63E302D0171AC00F818BE = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					12E63E402D0171AE00F818BE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 12E63E302D0171AC00F818BE;
+					};
+					12E63E4A2D0171AE00F818BE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 12E63E302D0171AC00F818BE;
+					};
+					12E63E962D01878C00F818BE = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					12E63EAB2D01908C00F818BE = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 12E63E2C2D0171AC00F818BE /* Build configuration list for PBXProject "Okee" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12E63E282D0171AC00F818BE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 12E63E322D0171AC00F818BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12E63E302D0171AC00F818BE /* Okee */,
+				12E63E402D0171AE00F818BE /* OkeeTests */,
+				12E63E4A2D0171AE00F818BE /* OkeeUITests */,
+				12E63E962D01878C00F818BE /* MyMonitorExtension */,
+				12E63EAB2D01908C00F818BE /* MyMonitorReportExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12E63E2F2D0171AC00F818BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E63E3F2D0171AE00F818BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E63E492D0171AE00F818BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E63E952D01878C00F818BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E63EAA2D01908C00F818BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12E63E2D2D0171AC00F818BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E63E3D2D0171AE00F818BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E63E472D0171AE00F818BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E63E932D01878C00F818BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E63EA82D01908C00F818BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12E63E432D0171AE00F818BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12E63E302D0171AC00F818BE /* Okee */;
+			targetProxy = 12E63E422D0171AE00F818BE /* PBXContainerItemProxy */;
+		};
+		12E63E4D2D0171AE00F818BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12E63E302D0171AC00F818BE /* Okee */;
+			targetProxy = 12E63E4C2D0171AE00F818BE /* PBXContainerItemProxy */;
+		};
+		12E63EA12D01878C00F818BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12E63E962D01878C00F818BE /* MyMonitorExtension */;
+			targetProxy = 12E63EA02D01878C00F818BE /* PBXContainerItemProxy */;
+		};
+		12E63EB72D01908C00F818BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12E63EAB2D01908C00F818BE /* MyMonitorReportExtension */;
+			targetProxy = 12E63EB62D01908C00F818BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12E63E532D0171AE00F818BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12E63E542D0171AE00F818BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12E63E562D0171AE00F818BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Okee/Okee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Okee/Preview Content\"";
+				DEVELOPMENT_TEAM = 27R53MF3YB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.okee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12E63E572D0171AE00F818BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Okee/Okee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Okee/Preview Content\"";
+				DEVELOPMENT_TEAM = 27R53MF3YB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.okee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12E63E592D0171AE00F818BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27R53MF3YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = byldd.OkeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Okee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Okee";
+			};
+			name = Debug;
+		};
+		12E63E5A2D0171AE00F818BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27R53MF3YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = byldd.OkeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Okee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Okee";
+			};
+			name = Release;
+		};
+		12E63E5C2D0171AE00F818BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27R53MF3YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = byldd.OkeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Okee;
+			};
+			name = Debug;
+		};
+		12E63E5D2D0171AE00F818BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27R53MF3YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = byldd.OkeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Okee;
+			};
+			name = Release;
+		};
+		12E63EA52D01878C00F818BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyMonitorExtension/MyMonitorExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27R53MF3YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyMonitorExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyMonitorExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.okee.MyMonitorExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12E63EA62D01878C00F818BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyMonitorExtension/MyMonitorExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27R53MF3YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyMonitorExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyMonitorExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.okee.MyMonitorExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12E63EBB2D01908C00F818BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyMonitorReportExtension/MyMonitorReportExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27R53MF3YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyMonitorReportExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyMonitorReportExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.okee.MyMonitorReportExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12E63EBC2D01908C00F818BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyMonitorReportExtension/MyMonitorReportExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27R53MF3YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyMonitorReportExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyMonitorReportExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.okee.MyMonitorReportExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12E63E2C2D0171AC00F818BE /* Build configuration list for PBXProject "Okee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E63E532D0171AE00F818BE /* Debug */,
+				12E63E542D0171AE00F818BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E63E552D0171AE00F818BE /* Build configuration list for PBXNativeTarget "Okee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E63E562D0171AE00F818BE /* Debug */,
+				12E63E572D0171AE00F818BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E63E582D0171AE00F818BE /* Build configuration list for PBXNativeTarget "OkeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E63E592D0171AE00F818BE /* Debug */,
+				12E63E5A2D0171AE00F818BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E63E5B2D0171AE00F818BE /* Build configuration list for PBXNativeTarget "OkeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E63E5C2D0171AE00F818BE /* Debug */,
+				12E63E5D2D0171AE00F818BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E63EA42D01878C00F818BE /* Build configuration list for PBXNativeTarget "MyMonitorExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E63EA52D01878C00F818BE /* Debug */,
+				12E63EA62D01878C00F818BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E63EBA2D01908C00F818BE /* Build configuration list for PBXNativeTarget "MyMonitorReportExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E63EBB2D01908C00F818BE /* Debug */,
+				12E63EBC2D01908C00F818BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12E63E292D0171AC00F818BE /* Project object */;
+}
